@@ -1,0 +1,52 @@
+h1 {
+  margin-left: 5vw;
+}
+
+.score-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 45vw;
+  align-items: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.table div {
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table button {
+  height: 40px;
+}
+
+.list-scores {
+  padding-left: 0;
+  list-style: none;
+  border: 2px solid black;
+  gap: 2px;
+}
+
+.list-scores li {
+  border-bottom: 2px solid black;
+  height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.list-scores span {
+  padding-left: 10px;
+}
