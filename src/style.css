@@ -1,3 +1,7 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1 {
   margin-left: 5vw;
 }
@@ -31,6 +35,9 @@ h1 {
 
 .table button {
   height: 40px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 5px 3px;
 }
 
 .list-scores {
@@ -49,4 +56,14 @@ h1 {
 
 .list-scores span {
   padding-left: 10px;
+}
+
+#submit {
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 5px 3px;
+}
+
+.add-score input {
+  border: 2px solid black;
 }
